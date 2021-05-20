@@ -28,6 +28,7 @@ public class Wait_ {
 		driver.findElement(By.id("package-destination-hp-package")).sendKeys("sa");
 		driver.findElement(By.id("package-destination-hp-package")).sendKeys(Keys.TAB);
 		driver.findElement(By.id("package-departing-hp-package")).sendKeys("05/25/2021");
+		
 		//driver.findElement(By.id("Fpackage-departing-hp-package")).sendKeys(Keys.TAB);
 		// 5/20/2021 and 4/14/2022.
 
@@ -42,6 +43,7 @@ public class Wait_ {
 
 		driver.findElement(By.id("search-button-hp-package")).sendKeys(Keys.ENTER);
 		//*[@id="search-button-hp-package"]
+		
 		/*
 		 * Explicit Wait
 		 * Explicit wait time is applied only to those elements which are intended by us
