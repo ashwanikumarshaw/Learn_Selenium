@@ -73,5 +73,6 @@ public class Wait_ {
 		 * visibilityOfElementLocated()
 		 * 
 		 */
+		driver.close();
 	}
 }
