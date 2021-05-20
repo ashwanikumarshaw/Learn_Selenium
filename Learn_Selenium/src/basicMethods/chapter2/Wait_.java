@@ -18,8 +18,9 @@ public class Wait_ {
  * Implicit Wait
  * Implicit wait time is applied to all the elements in the script
  * 
+ *  driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+ * 
  */
-// driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 
 		driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
 		driver.get("https://alaskatrips.poweredbygps.com/g/pt/hotels?MDPCID=ALASKA-US.TPS.BRAND.hotels.HOTEL");
